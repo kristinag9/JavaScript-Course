@@ -1,0 +1,32 @@
+DOM ->
+Document Object Model
+
+The DOM is a JS representation of a webpage.
+It's our JS "window" into the contents of a webpage.
+It's a bunch of objects that we can interact with via JS.
+
+The DOM object ->
+the entry point into the world of the DOM.
+It contains representations of all the content on a page + tons of useful methods and properties
+
+1. Selecting
+- getElementById: takes the id and finds the element that matches this id and returns an object
+
+- getElementsByTagName: returns html collection of objects. Can manipulate them as array.
+
+- getElementsByClassName: returns a collection of html elements.
+
+- querySelector: all-in-one method to select a SINGLE element. Pass in a CSS selector.
+
+2. Manipulation
+
+3. Important properties & methods.
+* classList             * innerText: returns the actual text in an element
+* getAttribute()        * textContent: returns all of the text (includes, hidden things)
+* setAttribute()        * innerHTML: not only the text but also all of the tags in it
+* appendChild()         * value: returns the value of an element
+* append(): can pass multiple elements (not supported in Internet Explorer)      * parentElement
+* prepend()             * children
+* removeChild()         * nextSibling
+* remove()              * previousSibling
+* createElement         * style

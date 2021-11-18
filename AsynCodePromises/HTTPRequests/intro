@@ -1,0 +1,27 @@
+1. AJAX -> Asynchronous JS And XML
+The idea of it is:
+Using the request asynchronously to load some data from the server or to send data to the server (to the db)
+
+2. AJAJ -> Asynchronous JS And JSON
+
+3. XHR and fetch
+
+4. XML
+- markup language
+- formatting data using tags
+
+5. JSON -> Javascript Object Notation
+- formatting data
+- js object
+- key-value pairs which are strings
+
+{
+   name: {
+      first: "",
+      second: ""
+   }
+}
+
+6. XMLHttpRequest
+- the original way of sending requests via JS
+- does not support promises => lots of callbacks
